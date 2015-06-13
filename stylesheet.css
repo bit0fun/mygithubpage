@@ -1,0 +1,89 @@
+body{
+    background-color:#CE70FC;
+
+}
+
+#top{
+    /*background-color:#FF9000;
+    ;*/
+    background-color:#BDA5FD;
+    height:200px;
+    width:80%;
+    margin-left:10%;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0px 10px 10px;
+    text-align:center;
+    font-family:"Helvetica";
+
+}
+
+
+#mid{
+    background-color:#BDA5FD;
+    height:200px;
+    width:80%;
+    position:relative;
+    margin-top: 40px;
+    margin-left:10%;
+    border-radius:20px;
+    padding:20px;
+    box-shadow:0px 10px 10px;
+    text-align:center;
+    font-family:"Helvetica";
+
+
+}
+
+#name{
+
+}
+
+@-webkit-keyframes text{
+    from{opacity:0.0;}
+    to{opacity:1.0;}
+
+}
+@keyframes text{
+    from{opacity:0.0;}
+    to{opacity:1.0;}
+
+}
+
+
+#text1{
+    -webkit-animation-name: text;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count:1;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration:1;
+
+
+}
+
+#img{
+    margin-top:40px;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    height:250px;
+
+}
+
+#sig{
+    -webkit-animation-name: text;
+    -webkit-animation-duration:5s;
+    -webkit-animation-iteration-count:1;
+    animation-name: text;
+    animation-duration: 5s;
+    animation-iteration:1;
+
+}
+
+
+.contact{
+    font-family:"Helvetica";
+    color:white;
+
+}
